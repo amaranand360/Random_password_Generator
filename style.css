@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #E91E63; */
+    background: linear-gradient(to right,#00AAFF,#00FF6C);
+
+
+}
+.container {
+    width: 90%;
+    max-width: 450px;
+}
+
+h1{
+    color: #fafFfF;
+    opacity: 1;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+.displayoutput{
+    display: flex;
+    position: relative;
+    background-color: #7117EA;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding-top: 0.35rem;
+    border-bottom: 0.5rem solid darkviolet;
+
+    /* background-color:#2C852F; */
+
+}
+.display{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    /* border: 1px solid white; */
+    padding: 1.15rem 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-right: 3.25rem;
+}
+
+.display::placeholder{
+    position: absolute;
+    top:35%;
+    left: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    opacity: 0.85;
+    color: #ffff19ec;
+
+}
+
+.copybtn{
+    width: 15%;
+    background-color: #7117EA;
+    border: none;
+    cursor: pointer;   
+     margin-right: 18px;
+
+}
+
+
+
+.input-container{
+    width: 100%;
+    background-color: #7117EA;
+    padding: 2rem;
+    border-radius: 1rem;
+    border-bottom: 0.5rem solid darkviolet ;
+}
+
+.length-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 400px;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.length-container p:nth-child(2) {
+    color: yellow;
+    font-weight: 800;
+}
+
+
+.slider {
+    appearance: none;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    outline: none;
+    height: 0.75rem;
+    cursor: pointer;
+    background: darkmagenta;
+    border-radius: 1rem;
+    background-image: linear-gradient( hsl(285, 91%, 52%),hsl(285, 91%, 52%)) ;
+    background-repeat: no-repeat;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+}
+
+.slider:focus {
+    outline: none;
+    outline: 3px solid yellow;
+}
+
+.slider::-webkit-slider-thumb {
+    position: relative;
+    z-index: 1;
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: yellow;
+    cursor: pointer;
+    margin-top: -3px;
+    /*You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
+    transition: all 100ms ease-in;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    outline: 2px solid yellow;
+    background-color:#7117EA;
+    box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
+}
+
+.slider::-moz-range-thumb {
+    position: relative;
+    z-index: 1;
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: yellow;
+    box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb:hover {
+    outline: 2px solid yellow;
+    background-color: darkviolet;
+    box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
+}
+
+.check {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.check:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.check input {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid aqua;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.35rem;
+}
+
+.check input:checked {
+    background-color: yellow;
+}
+
+.check input:checked::before {
+    position: absolute;
+    content: '✔';
+    color: green;
+    font-size: 1.05rem;
+    font-weight: 600;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -3.5px;
+}
+
+.check label{
+
+    color: yellow;
+    font-size: 5rem;
+    letter-spacing: 0.75px;
+}
+.lebel{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.strength-container{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.strength-container p {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.indicator{
+    width: 1.5em;
+    height: 1.5rem;
+    border-radius: 50%;
+    transition: all 250ms ease-in-out;
+}
+
+.textstatus{
+    font-weight: 900;
+}
+
+
+.generatepass{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 1rem 0;
+    background-color: #f54ea2;
+    text-align: center;
+    border-radius: 0.75rem;
+    border-bottom: 0.35rem solid rgba(255, 255, 0, 0.661);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: skyblue;
+    font-size: 1.25rem;
+}
+
+
