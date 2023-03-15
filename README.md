@@ -23,8 +23,10 @@ This is a simple website that generates random passwords based on user specifica
 - Alerts the user if they've chosen a password length outside of the allowed range.
 
 
-# Contributing
+# 🤝Contributing
 - Contributions to this project are welcome. If you would like to contribute, please open an issue or submit a pull request.
 - If you have any questions or comments about this project, please feel free to contact me via email at : amar.anand0030@gmail.com
 
+📧 Contact
+- If you have any questions or comments about this project, please feel free to contact me via email at : amar.anand0030@gmail.com
 
