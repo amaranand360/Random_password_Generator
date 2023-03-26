@@ -30,3 +30,9 @@ This is a simple website that generates random passwords based on user specifica
 📧 Contact
 -  Email at : amar.anand0030@gmail.com
 
+- # Desktop:
+![Screenshot (54)](https://user-images.githubusercontent.com/122713145/227777989-7fd73e53-74a6-4c4b-af18-75d35eb1b97b.png)
+
+- # Smartpnone:
+
+![Screenshot (55)](https://user-images.githubusercontent.com/122713145/227777992-12e21621-11b7-4e8f-975e-caec369550da.png)
