@@ -28,5 +28,5 @@ This is a simple website that generates random passwords based on user specifica
 - If you have any questions or comments about this project, please feel free to contact me via email at : amar.anand0030@gmail.com
 
 📧 Contact
-- If you have any questions or comments about this project, please feel free to contact me via email at : amar.anand0030@gmail.com
+-  Email at : amar.anand0030@gmail.com
 
