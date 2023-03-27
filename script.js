@@ -81,12 +81,12 @@ function calcStrength() {
      else if (
       (hasLower || hasUpper) &&(hasNum || hasSym) && passwordLength >= 6)
        {
-        document.querySelector('.textstatus').textContent= 'weaker'
+        document.querySelector('.textstatus').textContent= 'Medium';
         document.querySelector('.textstatus').style.color ='yellow';
         setIndicator("#ff0");
     } 
     else {
-        document.querySelector('.textstatus').textContent= 'weak'
+        document.querySelector('.textstatus').textContent= 'Low'
         document.querySelector('.textstatus').style.color ='#f00';
 
          setIndicator("#f00");
